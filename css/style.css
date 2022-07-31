@@ -1,0 +1,18 @@
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  padding: 10px;
+  background-color: #666;
+  color: white;
+  font-size: 35px;
+  border-radius: 6px;
+  transition: .5s;
+}
+div:hover {
+  background-color: black;
+  color: red;
+  transition: .5s;
+}
